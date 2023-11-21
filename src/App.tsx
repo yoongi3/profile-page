@@ -1,5 +1,10 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import { HomePage, ProgramsPage, GalleryPage, ContactPage } from "./pages";
+import ContactPage from './pages/contact/Contact';
+import GalleryPage from './pages/gallery/Gallery';
+import HomePage from './pages/home/Home';
+import ProgramsPage from './pages/program/Programs';
+
+import './pages/GenPageStyle/GenPageStyle.css'
 
 import './App.css';
 
